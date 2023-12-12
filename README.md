@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Node.js
+- Node.js v18
 - npm
 - An AWS account with S3 access
 - A Replicate API token
@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 1. Clone the repository
-2. Install the dependencies with `npm install`
+2. Install the dependencies with `npm ci`
 3. Create a `.env` file in the root directory and add the following environment variables:
     - `SENTRY_DNS`
     - `REPLICATE_API_TOKEN`
@@ -28,6 +28,11 @@ These instructions will get you a copy of the project up and running on your loc
     - `OPENAI_WHISPER_LANGUAGE`
     - `AWS_BUCKET`
 
+Install ffmpeg and dependencies:
+```bash
+apt-get update -y && \
+    apt-get install --no-install-recommends -y gcc build-essential curl ffmpeg
+```
 ## Using Docker
 
 ### Building the Docker Image
