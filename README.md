@@ -68,11 +68,5 @@ Built With
 - AWS SDK - AWS SDK for JavaScript in Node.js
 - Replicate - Used to run machine learning models
 
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
 ## Acknowledgments
 Thanks to the creators of the used libraries and frameworks.
